@@ -27,6 +27,8 @@ const updateClock = () => {
       seconds: date.getSeconds(),
       minutes: date.getMinutes(),
       hours: date.getHours(),
+      minutes: date.getMinutes(),
+      hours: date.getHours(),
     });
   }, 1000);
   return <AnalogClock {...tx} />;
